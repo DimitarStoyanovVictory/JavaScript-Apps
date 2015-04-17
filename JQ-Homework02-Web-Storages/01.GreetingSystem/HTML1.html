@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>Greeting System</title>
+    <style>
+        #loginForm {
+            margin-left: 35%;
+            margin-top: 20%;
+        }
+
+        #greedUser {
+            margin-left: 42%;
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <header>
+        <h1>Session Visits: </h1>
+        <div id="currentCount"></div>
+    </header>
+
+    <form id="loginForm">
+        <label>Pleace enter your first name and last name</label>
+        <input type="text" id="inputName"/>
+        <input type="submit" id="submitName"/>
+    </form>
+
+    <h1 id="greedUser" hidden>Hello </h1>
+</section>
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="app.js"></script>
+<script>
+    $(document).ready(function() {
+
+        function IncrementLoads() {
+
+            if (!sessionStorage.counter) {
+                sessionStorage.setItem('counter', 0);
+            }
+
+            $('#submitName').click(function () {
+                var fullName = $('#inputName').val();
+                if (sessionStorage.counter > 0 && fullName != '') {
+                    $('#loginForm').hide();
+                    $('#greedUser').append(fullName).show();
+                }
+            });
+
+            var currentCount = parseInt(sessionStorage.getItem('counter'));
+            currentCount++;
+            sessionStorage.setItem('counter', currentCount);
+
+            document.getElementById('currentCount').innerHTML = currentCount;
+        }
+
+        IncrementLoads();
+    });
+</script>
+
+</body>
+</html>

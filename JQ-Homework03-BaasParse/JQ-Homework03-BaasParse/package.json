@@ -1,0 +1,10 @@
+{
+  "name": "JQ-Homework03-BaasParse",
+  "version": "0.0.0",
+  "description": "JQ-Homework03-BaasParse",
+  "main": "app.js",
+  "author": {
+    "name": "User",
+    "email": ""
+  }
+}

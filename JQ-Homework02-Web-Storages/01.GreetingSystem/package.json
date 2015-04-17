@@ -1,0 +1,10 @@
+{
+  "name": "01.GreetingSystem",
+  "version": "0.0.0",
+  "description": "01.GreetingSystem",
+  "main": "app.js",
+  "author": {
+    "name": "User",
+    "email": ""
+  }
+}

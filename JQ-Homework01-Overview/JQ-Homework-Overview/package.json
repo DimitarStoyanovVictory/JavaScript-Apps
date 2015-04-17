@@ -1,0 +1,10 @@
+{
+  "name": "JQ-Homework-Overview",
+  "version": "0.0.0",
+  "description": "JQ-Homework-Overview",
+  "main": "app.js",
+  "author": {
+    "name": "User",
+    "email": ""
+  }
+}

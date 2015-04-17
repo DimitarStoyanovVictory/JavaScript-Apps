@@ -1,0 +1,10 @@
+{
+  "name": "JQ-Homework04-Consuming-Remote-Data",
+  "version": "0.0.0",
+  "description": "JQ-Homework04-Consuming-Remote-Data",
+  "main": "app.js",
+  "author": {
+    "name": "User",
+    "email": ""
+  }
+}
