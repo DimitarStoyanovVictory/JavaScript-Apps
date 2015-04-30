@@ -1,0 +1,10 @@
+{
+  "name": "03.StudentsCollection",
+  "version": "0.0.0",
+  "description": "03.StudentsCollection",
+  "main": "app.js",
+  "author": {
+    "name": "User",
+    "email": ""
+  }
+}

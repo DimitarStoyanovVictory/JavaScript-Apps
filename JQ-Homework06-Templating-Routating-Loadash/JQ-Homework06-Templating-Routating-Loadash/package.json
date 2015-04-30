@@ -1,0 +1,10 @@
+{
+  "name": "JQ-Homework06-Templating-Routating-Loadash",
+  "version": "0.0.0",
+  "description": "JQ-Homework06-Templating-Routating-Loadash",
+  "main": "app.js",
+  "author": {
+    "name": "User",
+    "email": ""
+  }
+}

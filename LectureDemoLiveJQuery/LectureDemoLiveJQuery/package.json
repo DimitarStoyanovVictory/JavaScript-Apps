@@ -1,0 +1,10 @@
+{
+  "name": "LectureDemoLiveJQuery",
+  "version": "0.0.0",
+  "description": "LectureDemoLiveJQuery",
+  "main": "app.js",
+  "author": {
+    "name": "User",
+    "email": ""
+  }
+}
