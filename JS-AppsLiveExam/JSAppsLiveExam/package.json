@@ -1,0 +1,10 @@
+{
+  "name": "JSAppsLiveExam",
+  "version": "0.0.0",
+  "description": "JSAppsLiveExam",
+  "main": "app.js",
+  "author": {
+    "name": "User",
+    "email": ""
+  }
+}

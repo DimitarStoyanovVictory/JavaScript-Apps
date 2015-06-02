@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "JSAppsLiveExam", "JSAppsLiveExam\JSAppsLiveExam.njsproj", "{C7D222DB-AA17-4AED-8A22-C7B5CAFC41CD}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Test", "Test\Test.njsproj", "{59110237-EA45-400A-92E9-73874391A39F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7D222DB-AA17-4AED-8A22-C7B5CAFC41CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D222DB-AA17-4AED-8A22-C7B5CAFC41CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D222DB-AA17-4AED-8A22-C7B5CAFC41CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D222DB-AA17-4AED-8A22-C7B5CAFC41CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59110237-EA45-400A-92E9-73874391A39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59110237-EA45-400A-92E9-73874391A39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59110237-EA45-400A-92E9-73874391A39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59110237-EA45-400A-92E9-73874391A39F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
